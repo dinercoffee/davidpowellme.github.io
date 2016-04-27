@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Week 1 At The Iron Yard"
+date:   2016-03-02 09:51:11 -0500
+---
 Over the past three years, the author Mark Manson has influenced me as much or more than any other writer. In one of his post [The Most Important Question of Your Life](http://markmanson.net/question), he writes
 >If I ask you, “What do you want out of life?” and you say something like, “I want to be happy and have a great family and a job I like,” it’s so ubiquitous that it doesn’t even mean anything. 
 >A more interesting question, a question that perhaps you’ve never considered before, is what pain do you want in your life? What are you willing to struggle for? Because that seems to be a greater determinant of how our lives turn out.

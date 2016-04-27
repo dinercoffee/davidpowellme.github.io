@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "First App"
+date:   2016-03-27 09:51:11 -0500
+---
 Over the course of Friday afternoon, Saturday morning, and (mostly) Sunday night, I built the UI for my first web app. You can view it on Github, and if you do, you’ll see code that’s a little bit redundant and full of cigarette butts, profanity, and about a thousand gallons of coffee.
 
 Since I poured some bloody, sweaty, tearful hours I could’ve been sleeping into it, I figured I’d write a blog post about it.

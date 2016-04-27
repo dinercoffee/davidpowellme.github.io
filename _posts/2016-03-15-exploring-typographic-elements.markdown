@@ -1,4 +1,8 @@
-##Exploring Typographic Elements
+---
+layout: post
+title:  "Exploring Typographic Elements"
+date:   2016-03-15 09:51:11 -0500
+---
 
 It's week 3 of The Iron Yard for me, and I can't look at apps, websites, or even printed materials the same way anymore. As a student in the [UI design course](https://www.theironyard.com/courses/user-interface-design.html), I'm learning about all things typography, and that means I'm starting to notice the serifs and descenders and x-heights of every letter I see everywhere.
 
