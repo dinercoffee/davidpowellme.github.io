@@ -1,23 +1,23 @@
 ---
 layout: default
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="col-sm-12 col-md-12 col-lg-7">
+<section class="col-sm-12 col-md-12 col-lg-12">
+  <div class="hero-text">
+    <h2>I'm a UI/UX designer. I like to freelance, and I'm looking for a job.</h2>
+  </div>
+</section>
+<section class="col-sm-10 col-md-8 col-lg-5">
+  <div class="social">
+    <a href="#">T</a>
+    <a href="#">L</a>
+    <a href="#">G</a>
+    <a href="#">D</a>
+  </div>
+</section>
 </div>
+<section class="col-lg-5">
+<div class="photo"></div>
+</section>
+
+
