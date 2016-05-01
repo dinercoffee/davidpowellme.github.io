@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="front">
+    <section class="col-sm-12 col-md-12 col-lg-7 home">
+        {% include header.html %}
+        <div class="page-content">
+            <div class="wrapper">
+                {{ content }}
+            </div>
+        </div>
+        {% include footer.html %}
+    </section>
+    <section class="col-lg-5 right-fix">
+      <div class="photo"></div>
+    </section>
+</body>
+
+</html>

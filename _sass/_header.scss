@@ -2,6 +2,51 @@
 	background: $color-dark-primary;
 }
 
+.logo {
+	float: left;
+	margin: 1rem 0 0 1rem;
+	width: 80px;
+}
+
 .main-nav {
 	display: none;
+}
+
+@media (min-width: 650px) {
+	.logo {
+		margin: 1rem 2rem 0 3.5rem;
+	}
+
+	.main-nav {
+		display: block;
+		float: left;
+		width: 75%;
+
+		ul {
+			list-style: none;
+			padding: 1rem 0;
+		}
+
+		li {
+			display: inline-block;
+			margin-right: 3.5rem;
+
+
+			a {
+				color: $color-light-primary;
+				font-weight: 300;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+
+			&:last-child {
+				border: 2px solid $color-light-primary;
+				border-radius: 3px;
+				margin-right: 0;
+				padding: 1rem 2rem;
+
+			}
+		}
+
+	}
 }
