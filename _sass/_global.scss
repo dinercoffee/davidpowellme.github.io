@@ -109,6 +109,7 @@ p {
 
 .summary {
     background: $color-dark-primary;
+    overflow: hidden;
     	&:nth-child(2) {
         	background: url(../images/playball.jpg) 0 0 no-repeat;
         	background-size: cover;
@@ -153,6 +154,10 @@ p {
         h1 {
             display: inline-block;
         }
+        p {
+        	max-width: 600px;
+        	padding-right: 2rem;
+        }
         div {
         	margin-top: 5rem;
         }
@@ -168,9 +173,16 @@ p {
         	color: $color-dark-secondary;
             display: inline-block;
         }
+        p {
+        	max-width: 600px;
+        }
         div {
         	margin-top: 5rem;
         }
+    }
+
+    .post {
+    	padding: 2rem 0 6rem 0;
     }
 
     .post-list li {
@@ -185,25 +197,65 @@ p {
     .post-content {
     	margin: 0 auto;
     	max-width: 700px;
+    	width: 80%;
+    }
+    .post-header {
+    	margin: 0 auto;
+    	max-width: 700px;
+
+    	h1 {
+    		color: $color-dark-secondary;
+    	}
     }
 
-    .contact {
-        float: right;
-        a {
-            color: $color-light-primary;
+.hire-me {
+	background: $color-dark-primary;
+	overflow: hidden;
+	padding: 1rem 0 6rem 0;
+}
+.contact-wrapper {
+	color: $color-light-primary;
+	padding: 1rem 2rem;
+	h1 {
             display: inline-block;
-            font-size: 1rem;
-            line-height: 1.5;
-            margin-right: 0.75rem;
-            text-decoration: none;
-            &:last-child {
-                margin-right: 0;
-            }
-            i {
-                font-size: 2rem;
-            }
         }
-    }
+        p {
+        	max-width: 600px;
+        	padding-right: 2rem;
+        }
+        div {
+        	margin-top: 5rem;
+        }
+}
+.form-wrapper {
+	margin: 0 auto;
+	width: 80%;
+}
+form {
+	margin: 0 auto;
+	max-width: 600px;
+
+	p {
+		color: $color-light-primary;
+	}
+}
+input {
+
+}
+input,
+textarea {
+	background: transparent;
+	border: 3px solid $color-light-primary;
+	color: $color-light-primary;
+	padding: 0.5rem;
+	width: 100%;
+}
+
+.submit {
+	float: right;
+	margin: 1rem 0;
+	width: 9rem;
+}
     @media (min-width: 650px) {
         .hero-text {
             font-size: 3.5em;
@@ -216,6 +268,9 @@ p {
 
         .post-list {
     		padding: 8rem 0 0 4rem;
+    	}
+    	.contact-wrapper {
+    		padding-left: 4rem;
     	}
     }
     @media (min-width: 900px) {
@@ -238,5 +293,11 @@ p {
             background: url(../images/david-photo.jpg) 0 0 no-repeat;
             height: 100%;
             width: 100%;
+        }
+        .form-wrapper {
+        	padding: 3rem 0 0 0;
+        }
+        .contact-wrapper {
+        	padding: 8rem 0 15rem 4rem;
         }
     }

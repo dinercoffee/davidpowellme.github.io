@@ -1,5 +1,27 @@
 .site-footer {
-	background: $color-dark-secondary;
-	overflow: hidden;
-	padding: 1.5rem 0;
+    background: $color-dark-secondary;
+    overflow: hidden;
+    padding: 1.5rem 0;
+}
+
+.contact {
+    float: right;
+    padding-right: 2rem;
+    a {
+        color: $color-light-primary;
+        display: inline-block;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-right: 0.75rem;
+        text-decoration: none;
+        &:last-child {
+            margin-right: 0;
+        }
+        i {
+            font-size: 2rem;
+        }
+    }
+    div {
+    	float: right;
+    }
 }
