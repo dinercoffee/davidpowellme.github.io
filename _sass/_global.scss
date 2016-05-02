@@ -157,6 +157,35 @@ p {
         	margin-top: 5rem;
         }
     }
+	.blog-wrapper {
+		overflow: hidden;
+		padding-bottom: 6rem;
+	}
+    .blog {
+    	color: $color-dark-secondary;
+        padding: 8rem 2rem 4rem 2rem;
+        h1 {
+        	color: $color-dark-secondary;
+            display: inline-block;
+        }
+        div {
+        	margin-top: 5rem;
+        }
+    }
+
+    .post-list li {
+    	list-style: none;
+
+    	a {
+    		color: $color-dark-secondary;
+    		font-size: 2rem;
+    		text-decoration: none;
+    	}
+    }
+    .post-content {
+    	margin: 0 auto;
+    	max-width: 700px;
+    }
 
     .contact {
         float: right;
@@ -180,9 +209,14 @@ p {
             font-size: 3.5em;
         }
 
-        .project-wrapper {
+        .project-wrapper,
+        .blog {
         	padding: 8rem 0 15rem 4rem;
         }
+
+        .post-list {
+    		padding: 8rem 0 0 4rem;
+    	}
     }
     @media (min-width: 900px) {
 
@@ -191,6 +225,7 @@ p {
     	}
         .right-fix {
             display: block;
+            height: 100vh;
             margin-right: 0;
         }
         .front {
@@ -201,7 +236,7 @@ p {
         }
         .photo {
             background: url(../images/david-photo.jpg) 0 0 no-repeat;
+            height: 100%;
             width: 100%;
-            height: 100vh;
         }
     }

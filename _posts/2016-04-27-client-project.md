@@ -11,6 +11,7 @@ Our UI Design class (which is only 6 people) split into 3 groups of 2 and worked
 The project was a web app to help RED Arena more effectively organize appointments with riders. TIY's own Justin Herrick, a backend instructor, would be developing the app based off one of our design team's style guides and mockup.
 
 ##The Problem
+
 The non-profit is currently using a Google spreadsheet that they print out each day as their schedule. A few of the columns and row contain standby information, like who's working what position with what rider and what time.
 
 Other rows and columns have been tacked onto the spreadsheet as afterthoughts.
@@ -22,6 +23,7 @@ The shortcomings of this system are obvious, just a few include:
 Since keeping track of the schedule and contacting people with changes isn't a streamlined process, sometimes cancellations or changes fall through the cracks, and clients or staff show up for appointments only to find out they wasted a trip.
 
 ##Design Challenges
+
 My partner of this project was Scott Anderson, another designer in the UI track at The Iron Yard ATX. Our challenge seemed pretty straightforward, but besides time constraints, we had more challenges to navigate:
 - The staff and volunteers at RED Arena range in age and comfortability A LOT
 - Scott and I have different tastes and styles in design
@@ -31,6 +33,7 @@ My partner of this project was Scott Anderson, another designer in the UI track 
 Add into the mix the fact we'd only been UI designers for about 8 weeks, and this was a huge task.
 
 ##Wireframes and Styling
+
 Scott and I created a Trello board and shared Github repo. We communicated primarily in person after class or over Slack and started sketching and wireframing the first day.
 
 We touched base regularly, and if we hadn't I don't think the project would ever have been finished. Designing a congruent site with two different peoples ideas isn't easy.
@@ -44,6 +47,7 @@ We decided we would each take a direction and create one final representation of
 I went back to the Internet and found the Invisible Children website. I ripped their styles down almost entirely, created a copycat tile, and then started tweaking different elements. When we came back together, Scott and our instructor Abby and I found a more usable typeface, but in the end, that tile is the one we used.
 
 ##Mocking Up
+
 Scott and I once more divided and conquered. He created a living style guide which Justin could easily reference and from which he could rip HTML and CSS for his development.
 
 I feel like I created the site 4 different times in Illustrator, because every time we asked for feedback, I would realilze something I missed or could do better. In the end, I mocked up 3-5 pages with different modals/form elements and did every page at 3 different breakpoints. Scott and I even came to campus all day Sunday to finish the project.
@@ -51,6 +55,7 @@ I feel like I created the site 4 different times in Illustrator, because every t
 I'm proud of the work we did, but I don't feel like it's finished--I never do at TIY. I think that's good though. I love what I do, and I understand why the saying is "art is never finished, only abandoned". Unfortunately, I have 2 more projects before this is finished, and I might have to abandon it for now.
 
 **Things I learned on this project**
+
 - Get feedback early and often
 - Send "users" through your app early and often
 - Communicate honestly with your team
