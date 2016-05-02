@@ -23,6 +23,7 @@ p {
     font-size: 1.25rem;
 }
 
+
 .wrapper {
     overflow: hidden;
 }
@@ -52,7 +53,7 @@ p {
         margin: 1rem 0 4.5rem 0;
     }
     .contact {
-    	width: 33.33%;
+    	width: 50%;
     }
 }
 
@@ -259,6 +260,7 @@ textarea {
     @media (min-width: 650px) {
         .hero-text {
             font-size: 3.5em;
+            padding-left: 2rem;
         }
 
         .project-wrapper,
