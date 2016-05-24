@@ -3,6 +3,7 @@
 }
 
 body {
+    color: $color-dark-secondary;
     font-family: $font-body;
 }
 
@@ -17,10 +18,22 @@ h1 {
     font-weight: 700;
     text-transform: uppercase;
 }
+.blog h2 {color: $color-dark-secondary;}
 
 p {
     font-family: $font-body;
     font-size: 1.25rem;
+    margin: 1em auto;
+    max-width: 600px;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+
+    &:hover {
+        color: lighten($color-dark-secondary, 20%);
+    }
 }
 
 
@@ -47,7 +60,9 @@ p {
     background: $color-dark-primary;
     overflow: hidden;
     .site-footer {
-        background: $color-dark-primary;
+        background: transparent;
+        position: absolute;
+        bottom: 0; left: 0; right: 0;
     }
     .page-content {
         margin: 1rem 0 4.5rem 0;
@@ -69,7 +84,8 @@ p {
     content: " ";
     background: url(../images/lightning-69.png);
     background-size: cover;
-    display: inline-block;
+    display: block;
+    float: right;
     height: 50px;
     width: 50px;
 }
@@ -169,9 +185,12 @@ p {
         padding: 8rem 2rem 4rem 2rem;
         h1 {
         	color: $color-dark-secondary;
-            display: inline-block;
+            display: block;
+            float: left;
+            overflow: hidden;
         }
         p {
+            clear: both;
         	max-width: 600px;
         }
         div {
@@ -186,8 +205,7 @@ p {
     .post-list li {
     	list-style: none;
 
-    	a {
-    		color: $color-dark-secondary;
+    	.post-link {
     		font-size: 2rem;
     		text-decoration: none;
     	}
@@ -277,6 +295,12 @@ textarea {
     	h1 {
     		font-size: 3.5rem;
     	}
+
+        .lightning:after {
+            height: 60px;
+            margin-top: 5px;
+            width: 60px;
+        }
         .right-fix {
             display: block;
             height: 100vh;
@@ -284,7 +308,10 @@ textarea {
         }
         .front {
             .page-content {
-                padding: 4rem 2.5rem 4.5rem 2.5rem;
+                padding: 1rem 2.5rem 4.5rem 2.5rem;
+            }
+            .site-footer {
+                right: 42%;
             }
         }
         .photo {
