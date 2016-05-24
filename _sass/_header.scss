@@ -48,10 +48,9 @@
 }
 
 
-
 @media (min-width: 900px) {
 	.logo {
-		margin: 1rem 2rem 0 3.5rem;
+		margin: 1rem 0 0 3.5rem;
 	}
 
 	.m-toggle {
@@ -64,7 +63,7 @@
 		float: left;
 		margin-left: 1rem;
 		padding: 1em 0;
-		width: 75%;
+		width: 70%;
 
 		ul {
 			background: $color-dark-primary;
@@ -74,23 +73,28 @@
 
 		li {
 			display: inline-block;
-			margin-right: 3.5rem;
+			margin: 0.75rem 2rem 0 0;
 
 
 			a {
+				border-bottom: 2px solid $color-dark-primary;
 				color: $color-light-primary;
 				font-weight: 300;
 				margin: 0;
+				padding: 0 0 0.1em 0;
 				text-decoration: none;
 				text-transform: uppercase;
+
+				&:hover {
+					border-bottom: 2px solid $color-light-primary;	
+				}
 			}
-
+			
+			&:first-child {
+				margin-left: 2em;
+			}
 			&:last-child {
-				border: 2px solid $color-light-primary;
-				border-radius: 3px;
 				margin-right: 0;
-				padding: 1rem 2rem;
-
 			}
 		}
 
