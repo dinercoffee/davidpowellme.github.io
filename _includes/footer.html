@@ -13,3 +13,27 @@
 	  </div>
 	</section>
 </footer>
+
+<script>
+	//MOBILE MENU
+
+	function menu(){
+		if( $(window).width() >= 900){
+			$('.main-nav').css('display', 'block');
+			} else {
+				$('.main-nav').css('display', 'none');
+			}
+		} 
+
+	$('.m-toggle').click(function(e){
+		e.preventDefault();
+		$('.main-nav').slideToggle(500);
+	});
+
+
+	menu();
+
+	$(window).resize(function(){
+		menu();
+	});
+</script>
