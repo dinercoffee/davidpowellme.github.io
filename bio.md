@@ -1,8 +1,11 @@
 ---
-layout: default
+layout: page
 title: Bio
 permalink: /bio/
 ---
+
+![Me wearing a cool hat](/images/hat-landscape.jpg "Me wearing a cool hat")
+
 
 I guess it'd be a little embarrassing if I didn't at least have something about myself on my own website, so here are the facts.
 
@@ -14,7 +17,7 @@ My background in freelancing forced me to learn about HTML, CSS, and different e
 
 With a healthy mix of real-world experience, learning by doing, and formal education, I can now offer my clients more value than they get with other designers.
 
-Besides designing, I love to music and traveling (like damn near everyone else who writes a bio for themselves), writing, and most outdoor recreation.
+Besides designing, I love music and traveling (like damn near everyone else who writes a bio for themselves), writing, and most outdoor recreation.
 
 I'm taking on freelance projects during the months of May and June, and I'd love to work with you.
 
