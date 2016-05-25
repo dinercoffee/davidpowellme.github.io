@@ -130,6 +130,7 @@ a {
 
 .summary {
     background: $color-dark-primary;
+    height: 100vh;
     overflow: hidden;
     	&:nth-child(2) {
         	background: url(../images/playball.jpg) 0 0 no-repeat;
@@ -236,7 +237,8 @@ a {
 }
 .contact-wrapper {
 	color: $color-light-primary;
-	padding: 4rem 2rem;
+	padding: 4rem 2rem 2rem 2rem;
+
 	h1 {
             display: inline-block;
         }
@@ -248,6 +250,13 @@ a {
         	margin-top: 5rem;
         }
 }
+
+.testimonials {
+    padding: 0 2em;
+    
+    .quote {text-align: right;}
+}
+
 .form-wrapper {
 	margin: 0 auto;
 	width: 80%;
@@ -330,4 +339,5 @@ textarea {
         .contact-wrapper {
         	padding: 8rem 0 15rem 4rem;
         }
+        .testimonials {padding-right: 4em;}
     }
