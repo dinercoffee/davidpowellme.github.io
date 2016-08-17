@@ -167,7 +167,7 @@ MOBILE PROJECT NAVIGATION
 =========================
 */
 
-.summary .mobile-pr-navigation a div {
+.summary .mobile-pr-navigation .white {
     color: $color-light-primary;
 }
 
@@ -263,7 +263,7 @@ MOBILE PROJECT NAVIGATION
         	max-width: 600px;
         	padding-right: 2rem;
         }
-        div {
+        .view {
         	margin-top: 5rem;
         }
     }
